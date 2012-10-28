@@ -20,7 +20,7 @@ console.log('unstripped: ' + uncleanse);
 console.log('stripped: ' + cleanse + '\n\n');
 assert.equal(cleanse, '.clearfax, .thang, .shat, .baz');
 
-var uncleanse = '.clearfex:focus, .theng:lang(en), .shet:active, .bez:hover';
+var uncleanse = '.clearfex:focus, .theng:lang(en), .shet:hover, .bez:hover';
 var cleanse = pseudio.bateman(uncleanse);
 console.log('unstripped: ' + uncleanse);
 console.log('stripped: ' + cleanse + '\n\n');
